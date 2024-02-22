@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <h1>
+        Welcome to forms
+    </h1>
+    <form>
+        <fieldset>
+            <legend > Student details </legend>
+            <br>
+        <div>
+        <label for="name"> Name:  </label>
+        <input required autofocus placeholder="Dhanshree Chougule" id="name" type="text" />
+        </div>
+        <br>
+
+        <div>
+        <label for="email"> E-mail:  </label>
+        <input required id="email" type="email" />
+        </div>
+        <br>
+
+        <div>
+            <label for="password"> Password </label>
+            <input required maxlength="10" id="password" type="password" />
+        </div>
+        <br>
+
+        <div>
+        <label for="phone"> Mob No:  </label>
+        <input required id="phone" type="tel" />
+        </div>
+        <br>
+
+        <div>
+        <label for="age"> Age:  </label>
+        <input required id="age" type="number" />
+        </div>
+        <br>
+
+        <div>
+        <label for="eligible"> Are You 18+:  </label>
+        <input id="eligible" type="checkbox" />
+        </div>
+        <br>
+
+        <div>
+            <label for="DOB"> Date Of Birth: </label>
+            <input required id="DOB" type="date">
+        </div>
+        <br>
+
+        <div>
+            <label> select religion </label>
+            <select name="religion" id="religion">
+                <option value="Hindu"> Hindu </option>
+                <option value="sikh"> OBC </option>
+                <option value="Muslim"> Muslim </option>
+            </select>
+ 
+        </div>
+
+        <div>
+        <label for="male"> Male:  </label>
+        <input id="male" name="gender" type="radio" />  
+        <label for="female"> Female:  </label>
+        <input id="female" name="gender" type="radio" /> 
+        <label for="other"> Other:  </label>
+        <input id="other" name="gender" type="radio" />  
+        </div>
+        <br>
+
+        <div>
+            Answer the following questions:
+            
+            <ol>
+                <li>
+                    <p> What is your fevourite color? </p>
+                    <label for="red"> Red </label>
+                    <input id="red" name="color" type="radio" />
+                     <label for="yellow"> Yellow </label>
+                    <input id="yellow" name="color" type="radio" />
+                     <label for="green"> Green </label>
+                    <input id="green" name="color" type="radio" />
+                </li>
+
+                <li>
+                    <p> Wha is your fevourite sport? </p>
+                    <label for="cricket"> Cricket </label>
+                    <input id="cricket" name="sport" type="radio" />
+                     <label for="fooball"> Football </label>
+                    <input id="football" name="sport" type="radio" />
+                     <label for="hollyball"> Hollyball </label>
+                    <input id="hollyball" name="sport" type="radio" />
+                </li>
+            </ol>
+        </div>
+        <br>
+
+        <div>
+            <label for="resume"> Attach CV </label>
+            <input id="Resume" type="file" />
+        </div>
+        <br>
+
+        <div>
+            <label for="url"> website url </label>
+            <input id="url" type="url" />
+        </div>
+        <br>
+
+        <div>
+            <input type="button" value="Submit" />
+        </div>
+
+    </fieldset>
+ 
+    </form>
+</body>
+</html>

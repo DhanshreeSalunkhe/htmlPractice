@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Prism&display=swap" 
+rel="stylesheet">
+
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Bebas Neue', cursive;
+            
+        }
+
+        .Header{
+            background-color: bisque;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .Logo{
+            display: inline-block;
+        }
+
+        .nav{
+            display: inline-block;
+            float: right;
+           
+        }
+
+        .Nav_item{
+            padding: 8px;
+            color: blueviolet;
+            text-decoration: none;
+            margin-left: 8px;
+           
+        }
+
+        .Nav_item :hover{
+            
+           border-bottom: 2px solid rgb(72, 17, 94);
+        }
+        .hero_banner-img{
+            height: 100%;
+            width: 100%;
+        }
+
+        .section{
+            padding: 20px;
+           
+            margin-bottom: 40px;
+        }
+
+        .footer{
+            background-color: black;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .categories{
+            text-align: center;
+            
+
+       }
+
+       .sub-head{
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: tomato;
+       }
+
+       .sub-dec{
+        font-size: 20px;
+        color: brown;
+       }
+
+        .category{
+            margin: 20px;
+            display:inline-block;
+
+        }
+
+        .category-photo{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+         
+        }
+
+        .Categ_label{
+            font-size: 30px;
+            margin-top: 10px;
+            color: brown;
+        }
+
+        .section_title{
+            font-size: 30px;
+            margin-left: 15px;
+            
+        }
+        .card_container{
+            margin: 5px 0px;
+        }
+        .card{
+            border: 1px solid red;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px;
+            display:inline-block ;
+        }
+        .card_image{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+        }
+        .card_title{
+            font-size: 25px;
+            color: brown;
+        }
+        .card_list{
+           margin-top: 2px;
+           list-style-type: none;
+           font-size: 20px; 
+        }
+        li{
+            color: rgb(65, 59, 59);
+        }
+        .card_list li{
+            margin-bottom: 1px;
+        }
+
+        .contact_form{
+            
+            width: 50%;
+            max-width: 500px;
+            min-width: 320px;
+            margin: 40px;
+            
+        }
+        .contact{
+            background-color: rgb(138, 125, 129);
+        }
+
+        .section_head{
+            color: red;
+            font-size: 25px;
+            margin-top: 5px ;
+        }
+
+        .form_item{
+            margin: 10px 0px;
+        }
+
+        .form_label{
+            font-size: 15px;
+        }
+        .form_label sup{
+            color: red;
+            font-size: 15px;
+        }
+
+        .form_input input, .form_input textarea{
+            border: 1px solid rgb(20, 19, 19);
+            padding: 8px;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="Header">
+        <h1 class="Logo"> Dog's Care </h1>
+    
+        <div class="nav">
+        <a class="Nav_item" href="#Menu"> Menu </a>
+        <a class="Nav_item" href="#Team"> Team </a>
+        <a class="Nav_item" href="#Contact"> Contact </a>
+        </div>
+
+    </div>
+
+    <div class="hero_banner">
+        <img class="hero_banner-img" src="./assets/banner1.jpg" />
+    </div>
+
+<main> 
+
+    <section class="section" id="Menu">
+        <div class="categories">
+            <h2 class="sub-head"> Choose your loved once </h2>
+            <p class="sub-dec"> Would you like to goes with dogs or cats</p>
+
+        <article>
+            <a href="#Dogs">
+            <div class="category">
+                <img class="category-photo" src="assets/dog.jpeg" />
+               <p class="Categ_label"> Dogs</p>
+            </div>
+        </a>
+       
+
+            <a href="#Cats">
+            <div class="category">
+                <img class="category-photo" src="assets/cat.webp" />
+               <p class="Categ_label"> Cats</p>
+        </div>
+    </a>
+     </article>
+    </section>
+
+    <section class="section_title" id="Dogs"> 
+       <h3 class="category_title"> 
+        DOGS
+       </h3>
+
+       <div class="card_container">
+
+        <article class="card">
+
+            <img src="assets/gs-black-red.jpg" class= "card_image" alt="dog_photo" />
+            <p class="card_title">
+                Rocky
+            </p>
+            <ul class="card_list">
+                <li> Age: 2yrs</li>
+                 <li>color: Black</li>
+                  <li> Breed: jurman shepherd</li>
+                   <li> vaccinated: yes</li>
+
+            </ul>
+
+        </article>
+
+       </div>
+
+    </section>
+
+    <section class="section_title" id="Cats"> 
+        <h3 class="category_title"> 
+         DOGS
+        </h3>
+ 
+        <div class="card_container">
+ 
+         <article class="card">
+ 
+             <img src="assets/gs-black-red.jpg" class= "card_image" alt="dog_photo" />
+             <p class="card_title">
+                 Rocky
+             </p>
+             <ul class="card_list">
+                 <li> Age: 2yrs</li>
+                  <li>color: Black</li>
+                   <li> Breed: jurman shepherd</li>
+                    <li> vaccinated: yes</li>
+ 
+             </ul>
+ 
+         </article>
+ 
+        </div>
+ 
+     </section>
+
+    <section class="contact" id="Contact">
+        
+        <h2 class="section_head"> Contact our team </h2>
+
+        <form class="contact_form">
+            <div class="form_item">
+                <div class="form_label">
+                    <label for="name"> Name: <sup>*</sup></label>
+                </div>
+                <div class="form_input">
+                    <input type="text" id="name" name="name" placeholder="Enter your name" />
+                </div>
+
+                <div class="form_item">
+                    <div class="form_label">
+                        <label for="Contact"> Contact: <sup>*</sup></label>
+                    </div>
+                    <div class="form_input">
+                        <input type="tel" placeholder="9155xxxxxx" />
+                    </div>
+                </div>
+
+                <div class="form_item">
+                        <div class="form_label">
+                            <label for="email"> E-mail Id: <sup>*</sup></label>
+                        </div>
+                        <div class="form_input">
+                            <input type="email" id="email" name="email" placeholder="Mail id" />
+                       </div>
+                    </div>
+                    
+                
+            <div class="form_item">
+                <div class="form_label">
+                    <label for="message"> Message: <sup>*</sup></label>
+                </div">
+                <div class="form_input">
+                <textarea placeholder="Enter your message..." rows="5">
+                </textarea>
+            </div>  
+        </div>  
+        <div class="form_cta">
+            <button>
+                send message <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        </form>
+
+    </section>
+
+    <section class="footer">
+        Created by Dhanshree and Team | Copyright 2023
+    </section>
+
+</main>
+
+</body>
+</html>
